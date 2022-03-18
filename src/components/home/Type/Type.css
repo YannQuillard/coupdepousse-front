@@ -1,0 +1,17 @@
+.type{
+	width: 50vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.yellowBG{
+	background: #EFBE96;
+}
+
+.greenBG{
+	background: #3D5C54;
+}
