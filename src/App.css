@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Montserrat";
+  src: url("assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Breve-News-Book";
+  src: url("assets/fonts/breve-new-book/Breve-News-Book.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+
+li,
+ul {
+  list-style-type: none;
+}
+
+button,
+input {
+  outline: none;
+}
+
+img,
+svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+:root {
+  --color-primary-1: #3D5C54;
+  --color-primary-2: #EFBE96;
+  --color-primary-3: #FAF6F2;
+
+  --color-secondary-1:#848484;
+
+  --font-primary-1: Montserrat, sans-serif;
+  --font-primary-2: Breve-News-Book;
+}
+
+/*------Button*/
+
+.bnt_round {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  place-content: space-around;
+  place-items: center;
+  height: 38px;
+  padding: 0 12px;
+  border-radius: 50px;
+  font-family: var(--font-primary-1);
+  font-weight: 600;
+  color: var(--color-primary-1);
+  background-color: var(--color-primary-2);
 }
 
-.App-link {
-  color: #61dafb;
+.bnt_round_reverse {
+  color: var(--color-primary-2);
+  background-color: var(--color-primary-1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*------Title*/
+
+.title{
+  font-family: var(--font-primary-1);
+  font-size: 48px;
+}
+
+.title_white{
+  color: var(--color-primary-3);
+}
+
+
+/*------Input*/
+
+.input{
+  display: flex;
+  place-items: center;
+  height: 38px;
+  padding: 0 19px;
+  border-radius: 50px;
+  border: solid 2px var(--color-primary-1) ;
+  font-weight: 400;
+  color: var(--color-secondary-1);
+}
+
+.input_content{
+  font-family: var(--font-primary-2);
+  font-size: 20px;
 }
