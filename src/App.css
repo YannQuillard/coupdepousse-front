@@ -80,6 +80,7 @@ svg {
 .title{
   font-family: var(--font-primary-1);
   font-size: 48px;
+  
 }
 
 .title_white{
@@ -89,7 +90,7 @@ svg {
 
 /*------Input*/
 
-.input{
+/* .input{
   display: flex;
   place-items: center;
   height: 38px;
@@ -98,9 +99,15 @@ svg {
   border: solid 2px var(--color-primary-1) ;
   font-weight: 400;
   color: var(--color-secondary-1);
-}
+} */
 
 .input_content{
-  font-family: var(--font-primary-2);
-  font-size: 20px;
+  display: flex;
+  place-items: center;
+  height: 38px;
+  padding: 0 19px;
+  border-radius: 50px;
+  border: solid 2px var(--color-primary-1) ;
+  font-weight: 400;
+  color: var(--color-secondary-1);
 }

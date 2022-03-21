@@ -1,3 +1,4 @@
-*{
-    font-family: var(--font-primary-2);
+.inscription{
+    background-color: var(--color-primary-1);
+    widht:100%;
 }
