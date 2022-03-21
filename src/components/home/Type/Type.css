@@ -1,6 +1,6 @@
 .type{
-	width: 50vw;
-	height: 100vh;
+	width: 50%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-content: space-around;
@@ -8,10 +8,12 @@
 	align-items: center;
 }
 
-.yellowBG{
+.seniorSide{
 	background: #EFBE96;
+	border-right: 4px solid #fff;
 }
 
-.greenBG{
+.youngSide{
 	background: #3D5C54;
+	border-left: 4px solid #fff;
 }

@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 import "./TypeImage.css"
 
-
-const TypeImage = (props: any) => {
-	console.log(props.typeImageUrl);
-	
+const TypeImage = (props: any) => {	
 	return (
 		<img src={props.typeImageUrl}/>
 	);
