@@ -21,7 +21,6 @@ const personType = {
 const Home = () => {
 	return (
 		<div className="homeContainer">
-			<Header/>
 			<div className="typeChoose">
 				<span>Je suis ?</span>
 			</div>

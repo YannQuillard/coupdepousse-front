@@ -14,12 +14,20 @@
 }
 
 .menuItem{
-	font-size: 28px;
+	/* font-size: 24px; */
+	font-size: 3vh;
 	font-weight: 500;
 	margin-right: 4.5vw;
-	color: #111111;
 }
 
 .menuItem:hover{
 	cursor: pointer;
+}
+
+.itemBlack{
+	color: #111111;
+}
+
+.itemWhite{
+	color: #FAF6F2;
 }
