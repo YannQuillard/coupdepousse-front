@@ -3,7 +3,7 @@ import "./TypeImage.css"
 
 const TypeImage = (props: any) => {	
 	return (
-		<img src={props.typeImageUrl}/>
+		<img className='home_image_category' src={props.typeImageUrl}/>
 	);
 }
 

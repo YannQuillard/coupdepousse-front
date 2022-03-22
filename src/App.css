@@ -39,9 +39,9 @@ input {
 
 img,
 svg {
-  display: block;
+  /* display: block;
   width: 100%;
-  height: auto;
+  height: auto; */
 }
 
 :root {

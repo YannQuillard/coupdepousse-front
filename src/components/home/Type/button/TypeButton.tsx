@@ -3,11 +3,8 @@ import "./TypeButton.css"
 
 const TypeButton = (props: any) => {	
 	return (
-		<a 
-			className={`buttonType ${props.buttonColor}`} 
-			onClick={()=>{
-			}}
-		>
+		<a
+			className={`buttonType ${props.buttonColor}`} href="#">
 			{props.personType}
 		</a>
 	);

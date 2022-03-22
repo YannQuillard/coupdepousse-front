@@ -1,0 +1,25 @@
+.headerContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	position: absolute;
+	height: 15vmin;
+}
+
+.headerLogo{
+	width: 8%;
+	margin-left: 4.5vw;
+}
+
+.menuItem{
+	font-size: 28px;
+	font-weight: 500;
+	margin-right: 4.5vw;
+	color: #111111;
+}
+
+.menuItem:hover{
+	cursor: pointer;
+}

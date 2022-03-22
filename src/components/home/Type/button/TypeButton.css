@@ -5,12 +5,21 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	font-size: 36px;
+	font-weight: 500;
+}
+
+.buttonType:hover{
+	cursor: pointer;
 }
 
 .greenButton{
-	background: #3D5C54;
+	background: var(--color-primary-1);
+	color: var(--color-primary-2);
 }
 
 .yellowButton{
-	background: #EFBE96;
+	background: var(--color-primary-2);
+	color: var(--color-primary-1);
 }
