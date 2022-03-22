@@ -37,19 +37,13 @@ input {
   outline: none;
 }
 
-img,
-svg {
-  display: block;
-  width: 100%;
-  height: auto;
-}
 
 :root {
   --color-primary-1: #3D5C54;
   --color-primary-2: #EFBE96;
   --color-primary-3: #FAF6F2;
 
-  --color-secondary-1:#848484;
+  --color-secondary-1:#BDBDBD;
 
   --font-primary-1: Montserrat, sans-serif;
   --font-primary-2: Breve-News-Book;
@@ -90,16 +84,9 @@ svg {
 
 /*------Input*/
 
-/* .input{
+.input{
   display: flex;
-  place-items: center;
-  height: 38px;
-  padding: 0 19px;
-  border-radius: 50px;
-  border: solid 2px var(--color-primary-1) ;
-  font-weight: 400;
-  color: var(--color-secondary-1);
-} */
+}
 
 .input_content{
   display: flex;
@@ -107,7 +94,18 @@ svg {
   height: 38px;
   padding: 0 19px;
   border-radius: 50px;
-  border: solid 2px var(--color-primary-1) ;
+  font-family: var(--font-primary-2);
+  font-size:18px;
   font-weight: 400;
+
+}
+
+::placeholder{
   color: var(--color-secondary-1);
+}
+
+.container{
+  width:100vw;
+  height: 100vh;
+  padding: 78px;
 }

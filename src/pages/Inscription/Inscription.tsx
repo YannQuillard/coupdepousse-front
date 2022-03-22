@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './Inscription.css';
 
 function Inscription() {
   return (
     <div className="inscription">
-        <h1 className="title_white">Inscription</h1>
+      <div className="container">
+        <h1 className="title title_white">Inscription</h1>
         <div className="input">
+          <div className='input_first_raw'>
             <input
               type="text"
               className="input_content"
@@ -15,17 +16,7 @@ function Inscription() {
             <input
               type="text"
               className="input_content"
-              placeholder="Nom"
-            />
-            <input
-              type="text"
-              className="input_content"
               placeholder="Adresse"
-            />
-            <input
-              type="date"
-              className="input_content"
-              placeholder="Date de naissance"
             />
             <input
               type="text"
@@ -35,21 +26,32 @@ function Inscription() {
             <input
               type="text"
               className="input_content"
-              placeholder="Ville"
+              placeholder="Téléphone"
+            />
+          </div>
+          <div className='input_second_raw'>
+            <input
+                type="text"
+                className="input_content"
+                placeholder="Nom"
+            />
+            <input
+              type="date"
+              className="input_content"
+              placeholder="Date de naissance"
             />
             <input
               type="text"
               className="input_content"
-              placeholder="Téléphone"
+              placeholder="Ville"
             />
-        </div>
-        
+          </div>
+        </div>  
         <div className="bnt_round">
-          <a>Inscription</a>
+          <a>Créer un compte</a>
         </div>
-
+      </div>
     </div>
-     
   );
 }
 

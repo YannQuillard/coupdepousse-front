@@ -1,4 +1,40 @@
 .inscription{
     background-color: var(--color-primary-1);
-    widht:100%;
 }
+
+.bnt_round {
+    width: 172px;
+  }
+
+.input_content{
+    width:396px;
+    border: solid 2px var(--color-primary-2) ;
+    font-size:18px;
+    color: var(--color-secondary-1);
+    background-color: var(--color-primary-1) ;
+  }
+
+  .input_content:not(:last-child){
+    margin-bottom: 20px;
+  }
+
+  .input_first_raw {
+    margin: 0 15px 50px 0;
+  }
+  .title_white{
+    margin-bottom:54px;
+  }
+  
+  .container{
+    color: var(--color-secondary-1);
+  }
+
+  .connexion{
+    background-color: var(--color-primary-1);
+  }
+
+  .input_connexion{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
