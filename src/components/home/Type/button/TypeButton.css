@@ -1,12 +1,12 @@
 .buttonType{
-	width: 304px;
-	height: 102px;
+	width: 21vw;
+	height: 11vh;
 	border-radius: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
-	font-size: 36px;
+	font-size: 5vh;
 	font-weight: 500;
 }
 
