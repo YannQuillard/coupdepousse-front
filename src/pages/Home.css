@@ -1,0 +1,41 @@
+.homeContainer{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.homeMain{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.homeFooter img{
+	height: 65%;
+	width: auto;
+}
+
+a{
+	font-size: 36px;
+}
+
+.typeChoose{
+	position: absolute;
+	top:16%;
+	left: 38%;
+	background: #fff;
+	color: #CC6954;
+	border-radius: 50px;
+	padding: 0 3vw;
+	transform: rotate(1deg);
+	height: 13vh;
+	width: 26vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 7vh;
+	font-weight: 500;
+}
