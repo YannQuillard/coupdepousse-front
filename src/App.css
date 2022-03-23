@@ -44,6 +44,9 @@ input {
   --color-primary-3: #FAF6F2;
 
   --color-secondary-1:#BDBDBD;
+  --color-secondary-2:#F8EEE4;
+
+  --color-black:#111111;
 
   --font-primary-1: Montserrat, sans-serif;
   --font-primary-2: Breve-News-Book;
@@ -81,6 +84,12 @@ input {
   color: var(--color-primary-3);
 }
 
+.title_green{ 
+  font-family: var(--font-primary-1);
+  font-size: 36px;
+  color: var(--color-primary-1);
+}
+
 
 /*------Input*/
 
@@ -108,4 +117,11 @@ input {
   width:100vw;
   height: 100vh;
   padding: 78px;
+}
+
+/*------Small Text*/
+
+.small_Text p, a{
+  font-family: var(--font-primary-2);
+  font-size: 18px;
 }

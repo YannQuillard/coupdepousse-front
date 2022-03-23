@@ -1,0 +1,32 @@
+.card .card_first_raw, .card_second_raw{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.young_mission h2 {
+    margin-left: 12px;
+    margin-top: 55px;
+    font-family: var(--font-primary-1);
+    font-size: 36px;
+    color: var(--color-primary-1);
+}
+
+.senior_profil{
+    display: flex;
+}
+.senior_profil .title_green{
+    margin-bottom: 3px;
+
+
+}
+
+
+.senior_profil img{
+    margin-right: 44px;
+    width:117px;
+    height: 117px;
+    border: 3px solid #EFBE96;
+    border-radius: 50%;
+}
+
