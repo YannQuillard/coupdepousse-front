@@ -1,0 +1,26 @@
+.MenuButton{
+	width: 22vw;
+	height: 9vh;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1.5vh 0;
+
+	font-size: 5vh;
+	font-weight: 500;
+}
+
+.MenuButton:hover{
+	cursor: pointer;
+}
+
+.yellowButton{
+	background: var(--color-primary-2);
+	color: var(--color-primary-1);
+}
+
+.greenButton{
+	background: var(--color-primary-1);
+	color: var(--color-primary-2);
+}
