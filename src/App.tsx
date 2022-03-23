@@ -1,19 +1,20 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import logo from './logo.svg';
 import './App.css';
+import Inscription from './pages/Inscription/Inscription';
+import Connexion from './pages/Connexion/Connexion';
+import Young_Mission from './pages/Yong_Mission/Young_Mission';
+import Mission_Card from './components/Mission_card/Mission_card';
 
-import Home from "./pages/Home";
-
-const App = () =>{
+function App() {
   return (
-    <div className="divo">
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </Router>
+    <div className="App">
+      {/* <Inscription></Inscription> */}
+      {/* <Connexion></Connexion> */}
+      <Young_Mission></Young_Mission>
+      {/* <Mission_Card></Mission_Card> */}
     </div>
-  )
+  );
 }
 
 export default App;
