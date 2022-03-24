@@ -3,7 +3,6 @@ export type User = {
     lastName?: string,
     phone: string,
     birthday?: string,
-    freeworker: boolean,
     address: string,
     postalCode: string,
     city: string,

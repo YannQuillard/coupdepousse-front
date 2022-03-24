@@ -22,14 +22,13 @@ const Signup = () => {
   const [country, setCountry] = useState('');
   const [phone, setPhone] = useState('');
   const [birthday, setBirthday] = useState('');
-  const [freeworker, setFreeworker] = useState(false);
   const navigate = useNavigate();
 
   const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     try {
-      const loggedUser = await postUser({ firstName, lastName, phone, birthday, freeworker, address, postalCode, city, country});
+      const loggedUser = await postUser({ firstName, lastName, phone, birthday, address, postalCode, city, country});
       console.log(loggedUser)
       navigate('')
     } catch (error) {
@@ -102,11 +101,6 @@ const Signup = () => {
               placeholder="Ville"
               value={city}
               onChange={(event) => setCity(event.target.value)}
-            />
-            <input 
-              type="hidden" 
-              value="false"
-              onChange={(event) => setFreeworker(() => Boolean(event.target.value))}
             />
           </div>
           </div>
