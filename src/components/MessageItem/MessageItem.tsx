@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./MessageItem.css"
 import '../../App.css';
 
-const MessageItem = (props: any) => {
+const MessageItem = () => {
 	return (
 		<div className='messageItem'>
 			<span className='img'></span>

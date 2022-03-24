@@ -7,12 +7,12 @@ import Connexion from './pages/Connexion/Connexion';
 import Young_Mission from './pages/Yong_Mission/Young_Mission';
 import Mission_Card from './components/Mission_card/Mission_card';
 import Home from './pages/Home';
-import Profile from './pages/Profile/OldProfile/OldProfile'
+import Test from './pages/YoungMissions/YoungMissions'
 
 function App() {
   return (
     <div className="App">
-      <Profile></Profile>
+      <Test></Test>
       {/* <Router>
         <Routes>
           <Route path="/" element={< Home/>} /> 

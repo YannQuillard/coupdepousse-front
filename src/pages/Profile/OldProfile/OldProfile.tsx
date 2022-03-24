@@ -5,7 +5,7 @@ import Header from "../../../components/Header/Header"
 import profilePic from "../../../assets/images/senior2.png"
 import MessageItem from "../../../components/MessageItem/MessageItem"
 
-const OldProfile = (props: any) => {
+const OldProfile = () => {
 	return (
 		<div>
 			<Header color="Black"/>
