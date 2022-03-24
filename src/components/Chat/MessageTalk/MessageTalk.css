@@ -1,0 +1,29 @@
+.Message{
+	width: 100%;
+	height: auto;
+}
+
+.MessageHeader{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 2vh 2vw;
+}
+
+.MessagePP{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: grey;
+	margin-right: 1vw;
+}
+
+.MessageAuthor{
+	font-family: var(--font-primary-1);
+	font-weight: 600;
+	font-size: 2vh;
+}
+
+.MessageContent{
+	margin: 0 1.2vw;
+}

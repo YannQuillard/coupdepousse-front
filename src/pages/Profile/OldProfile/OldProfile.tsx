@@ -3,7 +3,8 @@ import "./OldProfile.css"
 import '../../../App.css';
 import Header from "../../../components/Header/Header"
 import profilePic from "../../../assets/images/senior2.png"
-import MessageItem from "../../../components/MessageItem/MessageItem"
+import MessageItem from "../../../components/Chat/MessageItem/MessageItem"
+import ProfileChat from '../../../components/Chat/ProfileChat/ProfileChat';
 
 const OldProfile = () => {
 	return (
@@ -33,11 +34,12 @@ const OldProfile = () => {
 			</div>
 			<div className='OldProfileRight'>
 				<h4>Messagerie</h4>
-				<div className='OldProfileMessages'>
+				{/* <div className='OldProfileMessages'>
 					<MessageItem/>
 					<MessageItem/>
 					<MessageItem/>
-				</div>
+				</div> */}
+				<ProfileChat/>	
 			</div>
 			</div>
 		</div>

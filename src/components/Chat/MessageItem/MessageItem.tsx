@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./MessageItem.css"
-import '../../App.css';
+import '../../../App.css';
 
 const MessageItem = () => {
 	return (
