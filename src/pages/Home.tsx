@@ -22,7 +22,7 @@ const Home = () => {
 				<span>Je suis ?</span>
 			</div>
 			<div className="homeMain">
-				<Type typeSide="seniorSide" buttonColor="greenButton" personType={personType["senior"]} typeImageUrl={imagesUrl["oldImageUrl"]} />
+				<Type typeSide="seniorSide" buttonColor="greenButton" personType={personType["senior"]} typeImageUrl={imagesUrl["oldImageUrl"]}/>
 				<Type typeSide="youngSide" buttonColor="yellowButton" personType={personType["young"]} typeImageUrl={imagesUrl["youngImageUrl"]} />
 			</div>
 		</div>
