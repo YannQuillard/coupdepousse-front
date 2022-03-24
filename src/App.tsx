@@ -14,7 +14,6 @@ import Mission_Details from './pages/Mission_Details/Mission_Details';
 function App() {
   return (
     <div className="App">
-      <Test></Test>
       <Router>
         <Routes>
           <Route path="/" element={< Home/>} />
@@ -22,8 +21,8 @@ function App() {
           <Route path="/login" element={< Connexion/>} /> 
           <Route path="/missions" element={< Young_Mission/>} /> 
           <Route path="/missioncard" element={< Mission_Card/>} /> 
-          <Route path="/" element={< Young_Landing/>} /> 
-          <Route path="/" element={< Mission_Details/>} />
+          <Route path="/younglanding" element={< Young_Landing/>} /> 
+          <Route path="/missiondetails" element={< Mission_Details/>} />
         </Routes>
       </Router>
     </div>
