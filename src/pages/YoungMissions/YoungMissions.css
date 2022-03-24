@@ -1,0 +1,28 @@
+.MissionsContainer{
+	margin: 0 5vw ;
+}
+
+.MissionsPart{
+	margin: 4vh 0;
+}
+
+h3{
+	color: var(--color-primary-1);
+	font-family: var(--font-primary-1);
+	font-size: 4vh;
+	margin: 4vh;
+}
+
+h3:hover{
+	cursor: pointer;
+}
+
+.MissionsList{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.MissionsList>div{
+	margin: 2vh 1vw;
+}

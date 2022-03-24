@@ -7,11 +7,13 @@ import Connexion from './pages/Connexion/Connexion';
 import Young_Mission from './pages/Yong_Mission/Young_Mission';
 import Mission_Card from './components/Mission_card/Mission_card';
 import Home from './pages/Home';
+import Test from './pages/YoungMissions/YoungMissions'
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Test></Test>
+      {/* <Router>
         <Routes>
           <Route path="/" element={< Home/>} /> 
           <Route path="/signup" element={< Signup/>} /> 
@@ -19,7 +21,7 @@ function App() {
           <Route path="/missions" element={< Young_Mission/>} /> 
           <Route path="/missioncard" element={< Mission_Card/>} /> 
         </Routes>
-      </Router>
+      </Router> */}
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.YoungMenuContainer{
+	width: 100vw;
+	height: 100vh;
+	background: #3D5C54;
+	overflow: hidden;
+}
+
+.ButtonsContainer{
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}

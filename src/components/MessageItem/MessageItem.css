@@ -1,0 +1,33 @@
+.messageItem{
+	display: flex;
+	flex-direction: row;
+	margin: 0 2vw;
+	padding: 2vh 0;
+	border-bottom: 1px solid #8C8C8C;
+}
+
+.img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: grey;
+	margin-right: 1.5vw;
+}
+
+.messageItemRight{
+	display: flex;
+	flex-direction: column;
+}
+
+.messageItemName, .messageItemHelp{
+	font-family: var(--font-primary-1);
+	font-size: 2vh;
+	font-weight: 600;
+}
+
+.messageItemHt{
+	font-family: var(--font-primary-2);
+	font-size: 2vh;
+	font-weight: 400;
+	font-style: italic;
+}
