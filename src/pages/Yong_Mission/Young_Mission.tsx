@@ -7,7 +7,7 @@ function Young_Mission() {
     return (
         <div className="young_mission container">
             <div className="senior_profil small_Text">
-                <img src={senior_img}/>
+                <img alt="senior profile picture"src={senior_img}/>
                 <div>
                     <h3 className='title_green'>Josiane</h3>
                     <p>Inscrite depuis 2022</p>
