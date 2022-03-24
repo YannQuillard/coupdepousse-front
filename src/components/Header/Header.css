@@ -4,17 +4,18 @@
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	/* position: absolute; */
 	height: 15vmin;
+	border-bottom: var(--color-primary-2) 2px solid;
 }
 
 .headerLogo{
-	width: 8%;
+	width: 25%;
 	margin-left: 4.5vw;
 }
 
 .menuItem{
 	/* font-size: 24px; */
+	font-family: var(--font-primary-1);
 	font-size: 3vh;
 	font-weight: 500;
 	margin-right: 4.5vw;

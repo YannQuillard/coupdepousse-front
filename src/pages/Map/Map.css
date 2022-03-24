@@ -1,0 +1,9 @@
+.MapContainer {
+    background-color: salmon;
+    position: absolute;
+    width: 100%;
+    height: 730px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}

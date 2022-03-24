@@ -6,22 +6,26 @@ import Signup from './pages/Signup/Signup';
 import Connexion from './pages/Connexion/Connexion';
 import Young_Mission from './pages/Yong_Mission/Young_Mission';
 import Mission_Card from './components/Mission_card/Mission_card';
+import Young_Landing from './pages/Young_Landing/Young_Landing';
 import Home from './pages/Home';
 import Test from './pages/YoungMissions/YoungMissions'
+import Mission_Details from './pages/Mission_Details/Mission_Details';
 
 function App() {
   return (
     <div className="App">
       <Test></Test>
-      {/* <Router>
+      <Router>
         <Routes>
-          <Route path="/" element={< Home/>} /> 
+          <Route path="/" element={< Home/>} />
           <Route path="/signup" element={< Signup/>} /> 
           <Route path="/login" element={< Connexion/>} /> 
           <Route path="/missions" element={< Young_Mission/>} /> 
           <Route path="/missioncard" element={< Mission_Card/>} /> 
+          <Route path="/" element={< Young_Landing/>} /> 
+          <Route path="/" element={< Mission_Details/>} />
         </Routes>
-      </Router> */}
+      </Router>
     </div>
   );
 }

@@ -45,6 +45,7 @@ input {
 
   --color-secondary-1:#BDBDBD;
   --color-secondary-2:#F8EEE4;
+  --color-secondary-3:#848484;
 
   --color-black:#111111;
 
@@ -116,7 +117,7 @@ input {
 .container{
   width:100vw;
   height: 100vh;
-  padding: 78px;
+  padding: 0 78px;
 }
 
 /*------Small Text*/
