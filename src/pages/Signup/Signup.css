@@ -1,5 +1,6 @@
 .signup{
-    background-color: var(--color-primary-1);
+    background-image: url(../../assets/images/bg-welcome.jpg);
+    background-size: cover
 }
 
 .bnt_round {
@@ -11,7 +12,7 @@
     border: solid 2px var(--color-primary-2) ;
     font-size:18px;
     color: var(--color-secondary-1);
-    background-color: var(--color-primary-1) ;
+    background-color: transparent ;
   }
 
   .input_content:not(:last-child){
