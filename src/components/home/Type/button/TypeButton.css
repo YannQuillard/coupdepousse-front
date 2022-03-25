@@ -1,0 +1,25 @@
+.buttonType{
+	width: 21vw;
+	height: 11vh;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 5vh;
+	font-weight: 500;
+}
+
+.buttonType:hover{
+	cursor: pointer;
+}
+
+.greenButton{
+	background: var(--color-primary-1);
+	color: var(--color-primary-2);
+}
+
+.yellowButton{
+	background: var(--color-primary-2);
+	color: var(--color-primary-1);
+}

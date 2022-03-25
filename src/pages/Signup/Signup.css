@@ -1,0 +1,71 @@
+.headerLogo{
+	width: 25%;
+	margin-left: 4.5vw;
+}
+
+
+.signup{
+    background-image: url(../../assets/images/bg-welcome.jpg);
+    background-size: cover;
+}
+
+.connexion_bnt_round {
+    padding:0 21px;
+    font-size: 18px;
+  }
+
+.input_content{
+    width:36vw;
+    height:4vw;
+    border: solid 2px var(--color-primary-2) ;
+    font-size:18px;
+    color: var(--color-secondary-1);
+    background-color: transparent ;
+  }
+
+.input_description{
+  padding: 8px 19px;
+  border-radius: 20px;
+  font-family: var(--font-primary-2);
+  font-size:18px;
+  width: 36vw;
+  height: 14vw;
+  border: solid 2px var(--color-primary-2) ;
+  color: var(--color-secondary-1);
+  background-color: transparent ;
+}
+  .input_content:not(:last-child){
+    margin-bottom: 20px;
+  }
+
+  .input_first_raw {
+    margin: 0 15px 50px 0;
+  }
+  .title_white{
+    margin-bottom:3vh;
+  }
+
+  .container{
+    color: var(--color-secondary-1);
+  }
+
+  .connexion{
+    background-color: var(--color-primary-1);
+  }
+
+  .input_connexion{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  input{
+    background: none;
+  }
+  
+  .code_input{
+    margin-bottom: 1.6vh;
+    font-family: var(--font-primary-2);
+    font-size: 16px;
+    color:#FFFFFF;
+  }

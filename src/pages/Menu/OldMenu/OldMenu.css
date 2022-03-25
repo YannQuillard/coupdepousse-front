@@ -1,0 +1,37 @@
+.OldMenuContainer{
+	width: 100vw;
+	height: 100vh;
+	background: var(--color-primary-2);
+	overflow: hidden;
+}
+
+.ButtonsContainer{
+	height: 70vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 0 190px;
+
+}
+
+.OldMenuChoice{
+	font-size: 8vh;
+	font-weight: 700;
+}
+
+.ConnectByNum{
+	width: 22vw;
+	height: 15vh;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1.5vh 0;
+	background: var(--color-primary-1);
+	color: var(--color-primary-2);
+	text-align: center;
+
+	font-size: 5vh;
+	font-weight: 500;
+}
