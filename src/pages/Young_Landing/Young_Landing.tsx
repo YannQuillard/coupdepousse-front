@@ -48,7 +48,7 @@ function Young_Landing() {
 
 	return (
 		<div className="young_landing">
-			<Header color='Black' ></Header>
+			<Header color='Black' link="true"></Header>
 			<div className="young_landing_content">
 				<div className={`landing_left_column ${filtersSize}`}>
 					<h3 className={`title_green ${filtersState}`}>Filtres</h3>
