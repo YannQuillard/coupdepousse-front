@@ -73,10 +73,11 @@ h3{
 
 .OldProfileRight{
 	width: 30vw;
-	height: 100vh;
+	height: 85vh;
 	border-radius: 50px 0 0 0;
 	border-top: 2px solid var(--color-primary-1);
 	border-left: 2px solid var(--color-primary-1);
+	position: relative;
 }
 
 h4{
