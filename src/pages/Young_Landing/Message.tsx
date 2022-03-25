@@ -4,6 +4,7 @@ import './Young_Landing.css';
 interface MessagesProps {
     TaskContent: string,
     AvatarUrl: string
+    Name: string
 }
 
 
@@ -15,7 +16,7 @@ function Message(props: MessagesProps) {
             className="userImg"
             />
             <div className="messageContent">
-                <p className="messageTitle">Martine</p>
+                <p className="messageTitle">{props.Name}</p>
                 <p className="taskContent">
                     <i>À besoin d’aide pour : </i>
                     <b>{props.TaskContent}</b>
