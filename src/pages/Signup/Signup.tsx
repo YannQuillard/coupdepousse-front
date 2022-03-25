@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { postUser } from "../../api";
 import './Signup.css';
@@ -74,7 +75,7 @@ const Signup = () => {
               onChange={(event) => setPostalCode(event.target.value)}
             />
             <input
-              type="text"
+              type="tel"
               className="input_content"
               placeholder="Téléphone"
               value={phone}

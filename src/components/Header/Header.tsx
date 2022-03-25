@@ -11,7 +11,7 @@ const Header = (props: any) => {
 	} else{
 		svgColor = "#FAF6F2"
 	}
-	
+
 	return (
 		<div className='headerContainer'>
 			<Link to="/youngLanding">

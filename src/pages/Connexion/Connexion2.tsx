@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../Signup/Signup.css';
 import Header from '../../components/Header/Header';
 
-const Connexion = () => {
+const Connexion2 = () => {
   return (
     <div className="signup">
       <Header color="White"/>
@@ -12,16 +12,12 @@ const Connexion = () => {
           <div className="input">
 
           <div className='input_first_raw'>
+              <p className="code_input">Saisir le numéro envoyé par SMS</p>
             <input
-              type="tel"
-              className="input_content telephon_input"
-              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
-            />
-            {/* <input
               type="text"
-              className="input_content telephon_input"
-              placeholder="Téléphone"
-            /> */}
+              className="input_content"
+              placeholder="Code de sécurité"
+            />
           </div>
           </div>
           <div>
@@ -34,4 +30,4 @@ const Connexion = () => {
   );
 }
 
-export default Connexion;
+export default Connexion2;

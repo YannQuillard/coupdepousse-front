@@ -23,7 +23,7 @@ function Mission_card() {
                         <div className='mission_first_column'>
                             <p>Le: {mission_content["missionDate"]}</p>
                             <p>Pendant: {mission_content["missionDuration"]}</p>
-                            <a className='bnt_round' href="#">Postuler</a>
+                            <a className='bnt_round mission_bnt_round' href="#">Postuler</a>
                         </div>
                         <a className="mission_details" href="#">Détails</a>
                     </div>

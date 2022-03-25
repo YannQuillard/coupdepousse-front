@@ -56,17 +56,25 @@ input {
 /*------Button*/
 
 .bnt_round {
-	display: flex;
-	place-content: space-around;
-	place-items: center;
-	height: 38px;
-	padding: 0 12px;
-	border-radius: 50px;
-	font-family: var(--font-primary-1);
-	font-weight: 600;
-	color: var(--color-primary-1);
-	background-color: var(--color-primary-2);
-	cursor: pointer;
+  display: flex;
+  place-content: space-around;
+  place-items: center;
+  height: 38px;
+  padding: 0 12px;
+  border-radius: 50px;
+  font-family: var(--font-primary-1);
+  font-weight: 600;
+  color: var(--color-primary-1);
+  background-color: var(--color-primary-2);
+  box-shadow: inset 0 0 0 0 #CC6954;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.bnt_round:hover{
+  box-shadow: inset 130px 0 0 0 #CC6954;
+  color: #F8EEE4;
+
+
 }
 
 .bnt_round_reverse {
@@ -79,14 +87,14 @@ input {
 .title{
 	font-family: var(--font-primary-1);
 	font-size: 48px;
-	
+
 }
 
 .title_white{
 	color: var(--color-primary-3);
 }
 
-.title_green{ 
+.title_green{
 	font-family: var(--font-primary-1);
 	font-size: 3vh;
 	/* font-size: 36px; */
