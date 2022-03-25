@@ -4,13 +4,7 @@
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-<<<<<<< Updated upstream
-	height: 15vmin;
-	border-bottom: var(--color-primary-2) 2px solid;
-=======
-	/* position: absolute; */
 	height: 15vh;
->>>>>>> Stashed changes
 }
 
 .headerLogo{

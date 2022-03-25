@@ -1,9 +1,11 @@
 import React from 'react';
 import '../Signup/Signup.css';
+import Header from '../../components/Header/Header';
 
 function Connexion() {
     return (
         <div className="connexion">
+            <Header color="White"/>
             <div className="container">
                 <h1 className="title title_white">Connexion</h1>
                 <div className="input input_connexion">

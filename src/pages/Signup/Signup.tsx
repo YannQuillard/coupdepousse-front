@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import { postUser } from "../../api";
 import './Signup.css';
+import Header from '../../components/Header/Header';
 
 export type SignupState = {
   fristName: string;
@@ -38,6 +39,7 @@ const Signup = () => {
 
   return (
     <div className="signup">
+      <Header color="White"/>
       <div className="container">
         <h1 className="title title_white">Inscription</h1>
         <form onSubmit={handleFormSubmit}>
