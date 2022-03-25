@@ -1,3 +1,9 @@
+.headerLogo{
+	width: 25%;
+	margin-left: 4.5vw;
+}
+
+
 .signup{
     background-image: url(../../assets/images/bg-welcome.jpg);
     background-size: cover;

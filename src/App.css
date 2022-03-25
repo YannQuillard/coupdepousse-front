@@ -131,7 +131,14 @@ input {
 
 /*------Small Text*/
 
-.small_Text p, a{
+.small_Text p, .small_Text a{
   font-family: var(--font-primary-2);
   font-size: 18px;
+}
+
+
+.error_text {
+  color: rgb(238, 75, 69);
+  font-size: 18px;
+  padding: 14px;
 }

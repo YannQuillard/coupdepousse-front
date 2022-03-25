@@ -2,6 +2,7 @@
     display: inline-block;
     position: relative;
     width: 100%;
+    overflow: hidden;
 }
 
 .landing_left_column{

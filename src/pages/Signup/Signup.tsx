@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { postUser } from "../../api";
 import './Signup.css';
@@ -15,7 +14,7 @@ export type SignupState = {
   birthday: Date;
 }
 
-const Signup = () => {
+const Signup = (props: any) => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [address, setAddress] = useState('');
@@ -25,24 +24,28 @@ const Signup = () => {
   const [phone, setPhone] = useState('');
   const [birthday, setBirthday] = useState('');
   const navigate = useNavigate();
+  const [message, setMesssage] = useState<string>();
 
   const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     try {
       const loggedUser = await postUser({ firstName, lastName, phone, birthday, address, postalCode, city, country});
-      console.log(loggedUser)
-      navigate('')
+      setMesssage('Success Login !')
+      navigate('/signup2', {state: loggedUser});
     } catch (error) {
-      alert(error);
+      setMesssage('Erreur lors de l\'inscription ! Vérifier tous les champs !')
     }
   }
 
   return (
     <div className="signup">
-      <Header color="White"/>
+      <Header color="White" link={false}/>
       <div className="container">
         <h1 className="title title_white">Inscription</h1>
+        {!!message &&
+          <p className='error_text'>{message}</p>
+        }
         <form onSubmit={handleFormSubmit}>
           <div className="input">
 
@@ -108,9 +111,7 @@ const Signup = () => {
           </div>
           </div>
           <div>
-          <Link to="/signup2">
               <input type="submit" className="bnt_round connexion_bnt_round" value="Suivant" />
-          </Link>
           </div>
         </form>
 
@@ -120,3 +121,7 @@ const Signup = () => {
 }
 
 export default Signup;
+
+function useHistory() {
+  throw new Error('Function not implemented.');
+}

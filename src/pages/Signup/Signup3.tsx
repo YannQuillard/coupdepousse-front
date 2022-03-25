@@ -1,9 +1,37 @@
 import React, { useState } from 'react';
 import './Signup.css';
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Header from '../../components/Header/Header';
+interface State {
+  firstName: string;
+  phone: string;
+}
 
 const Signup3 = () => {
+  const { state } = useLocation();
+  console.log(state);
+  const [code, setCode] = useState<number>(0);
+  const [message, setMesssage] = useState<string>();
+
+  const navigate = useNavigate();
+
+  const getPhoneNumber = (state: State): string => {
+    return state.phone;
+  }
+
+  const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    try {
+      const phone = getPhoneNumber(Object(state));
+      //const loggedUser = await postPhoneValidation({ phone, code});
+      setMesssage('Success Login !')
+      navigate('/younglanding', {state: phone});
+    } catch (error) {
+      setMesssage('Erreur lors de l\'inscription ! Vérifier tous les champs !')
+    }
+  }
+  
   return (
     <div className="signup">
       <Header color="White"/>
@@ -15,7 +43,7 @@ const Signup3 = () => {
               <p className="code_input">Décrivez vous en quelques lignes.</p>
             <textarea className="input_description"
             >
-            Description...
+            
             </textarea>
           </div>
           </div>
