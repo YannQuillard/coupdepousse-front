@@ -11,7 +11,7 @@ const TypeButton = (props: any) => {
 
 	return (
 		<a
-			className={`buttonType ${props.buttonColor}`} onClick={() => handleClick('/signup')}>
+			className={`buttonType ${props.buttonColor}`} href={props.linkUrl}>
 			{props.personType}
 		</a>
 	);

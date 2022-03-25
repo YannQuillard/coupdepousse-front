@@ -7,7 +7,7 @@ const Type = (props: any) => {
 		return (
 			<div className={`type ${props.typeSide}`}>
 				<TypeImage typeImageUrl = {props.typeImageUrl} />
-				<TypeButton className={`buttonType`} buttonColor = {props.buttonColor} personType = {props.personType} />
+				<TypeButton className={`buttonType`} buttonColor = {props.buttonColor} personType = {props.personType} linkUrl = {props.linkUrl} />
 			</div>
 	);
 }

@@ -44,7 +44,7 @@
   .title_white{
     margin-bottom:3vh;
   }
-  
+
   .container{
     color: var(--color-secondary-1);
   }
@@ -59,6 +59,10 @@
     margin-bottom: 60px;
   }
 
+  input{
+    background: none;
+  }
+  
   .code_input{
     margin-bottom: 1.6vh;
     font-family: var(--font-primary-2);

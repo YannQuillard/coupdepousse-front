@@ -48,7 +48,6 @@ const Signup = (props: any) => {
         }
         <form onSubmit={handleFormSubmit}>
           <div className="input">
-
           <div className='input_first_raw'>
             <input
               type="text"
@@ -122,6 +121,3 @@ const Signup = (props: any) => {
 
 export default Signup;
 
-function useHistory() {
-  throw new Error('Function not implemented.');
-}

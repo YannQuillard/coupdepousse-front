@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import "./OldProfile.css"
-import '../../../App.css';
-import Header from "../../../components/Header/Header"
-import profilePic from "../../../assets/images/senior2.png"
-import MessageItem from "../../../components/Chat/MessageItem/MessageItem"
-import ProfileChat from '../../../components/Chat/ProfileChat/ProfileChat';
+import "./Profile.css"
+import '../../App.css';
+import Header from "../../components/Header/Header"
+import profilePic from "../../assets/images/senior2.png"
+import MessageItem from "../../components/Chat/MessageItem/MessageItem"
+import ProfileChat from '../../components/Chat/ProfileChat/ProfileChat';
 
 const OldProfile = () => {
 	return (
-		<div>
+		<div className='ProfileContainer'>
 			<Header color="Black"/>
 			<div className="OldProfileContainer">
 				<div className='OldProfileLeft'>
@@ -39,7 +39,7 @@ const OldProfile = () => {
 						<MessageItem/>
 						<MessageItem/>
 					</div> */}
-					<ProfileChat/>	
+					<ProfileChat/>
 				</div>
 			</div>
 		</div>

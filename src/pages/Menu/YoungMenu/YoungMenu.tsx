@@ -9,8 +9,8 @@ const YoungMenu = (props: any) => {
 		<div className="YoungMenuContainer">
 			<Header color="White"/>
 			<div className='ButtonsContainer'>
-				<MenuButton buttonColor="yellowButton" buttontext="Inscription"/>
-				<MenuButton buttonColor="yellowButton" buttontext="Connexion"/>
+				<MenuButton buttonColor="yellowButton" buttontext="Inscription" hrefUrl="/signup"/>
+				<MenuButton buttonColor="yellowButton" buttontext="Connexion" hrefUrl="/login"/>
 			</div>
 		</div>
 	);

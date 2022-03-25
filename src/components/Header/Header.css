@@ -13,7 +13,6 @@
 }
 
 .menuItem{
-	/* font-size: 24px; */
 	font-family: var(--font-primary-1);
 	font-size: 3vh;
 	font-weight: 500;

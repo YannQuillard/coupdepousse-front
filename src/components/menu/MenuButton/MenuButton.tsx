@@ -4,7 +4,7 @@ import "./MenuButton.css"
 const MenuButton = (props: any) => {
 	return (
 		<a
-			className={`MenuButton ${props.buttonColor}`} href="#">
+			className={`MenuButton ${props.buttonColor}`} href={props.hrefUrl}>
 				{props.buttontext}
 		</a>
 	);
