@@ -66,6 +66,7 @@ input {
   font-weight: 600;
   color: var(--color-primary-1);
   background-color: var(--color-primary-2);
+  cursor: pointer;
 }
 
 .bnt_round_reverse {

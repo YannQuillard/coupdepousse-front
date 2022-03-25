@@ -16,13 +16,13 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={< Home/>} />
+          {/* <Route path="/" element={< Home/>} /> */}
           <Route path="/signup" element={< Signup/>} /> 
           <Route path="/login" element={< Connexion/>} /> 
           <Route path="/missions" element={< Young_Mission/>} /> 
           <Route path="/missioncard" element={< Mission_Card/>} /> 
           <Route path="/younglanding" element={< Young_Landing/>} /> 
-          <Route path="/missiondetails" element={< Mission_Details/>} />
+          <Route path="/" element={< Mission_Details/>} />
         </Routes>
       </Router>
     </div>
