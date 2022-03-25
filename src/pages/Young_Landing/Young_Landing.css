@@ -219,3 +219,7 @@
 .activateChat:hover{
 	cursor: pointer;
 }
+
+.chatReducer{
+	transform: rotate(180deg);
+}

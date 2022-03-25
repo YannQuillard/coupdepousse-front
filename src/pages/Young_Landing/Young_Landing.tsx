@@ -79,7 +79,7 @@ function Young_Landing() {
 				<div className={`landing_right_column ${chatState}`}>
 					<div onClick={changeStyleChat} className="chatTitle">
 						<h3 className='title_green'>Messagerie</h3>
-						<img src={arrow_down}/>
+						<img className="chatReducer" src={arrow_down}/>
 					</div>
 					<Message 
 						TaskContent="Faire ses courses"

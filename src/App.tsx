@@ -8,12 +8,11 @@ import Signup2 from './pages/Signup/Signup2'
 import Signup3 from './pages/Signup/Signup3'
 import Connexion from './pages/Connexion/Connexion';
 import Connexion2 from './pages/Connexion/Connexion2';
-import Young_Mission from './pages/Yong_Mission/Young_Mission';
+import Young_Mission from './pages/Young_Mission/Young_Mission';
 import OldMenu from '../src/pages/Menu/OldMenu/OldMenu'
 import YoungMenu from '../src/pages/Menu/YoungMenu/YoungMenu'
 import Mission_Card from './components/Mission_card/Mission_card';
 import Young_Landing from './pages/Young_Landing/Young_Landing';
-import Home from './pages/Home';
 import Mission_Details from './pages/Mission_Details/Mission_Details';
 import YoungProfile from './pages/Profile/YoungProfile/YoungProfile';
 
