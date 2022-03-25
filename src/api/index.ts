@@ -1,5 +1,5 @@
 import axios from "axios";
-import { User, Phone } from '../decl';
+import { User, Phone, Points } from '../decl';
 
 export const postUser = async(User: User) : Promise<User>=> {
     try {
@@ -34,3 +34,16 @@ export const postPhoneValidation = async(Phone: Phone) : Promise<Phone>=> {
         throw new Error("An error occurred saving the user.");
     }
 }
+
+export const getPoints = async(phone: string) : Promise<Points> => {
+    try {
+        const res = await axios.get(
+            `${process.env.REACT_APP_BASE_URL}/tasks/user/${phone}`,
+        );
+        return res.data;
+    }
+    catch (error) {
+        console.error("error", error);
+        return [];
+    }
+};
