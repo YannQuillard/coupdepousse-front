@@ -19,9 +19,13 @@ const Header = (props: any) => {
 				</svg>
 			</Link>
 			<div className='menuItems headerBlack'>
+				<Link to="/youngMenu">
 				<a className={`menuItem item${props.color}`} href="#">Accueil</a>
-				<a className={`menuItem item${props.color}`} href="#">Se faire aider</a>
+				</Link>
+				<a className={`menuItem item${props.color}`} href="#">Aider</a>
+				<Link to="/missions">
 				<a className={`menuItem item${props.color}`} href="#">Missions</a>
+				</Link>
 				<a className={`menuItem item${props.color}`} href="#">Mon compte</a>
 			</div>
 		</div>
