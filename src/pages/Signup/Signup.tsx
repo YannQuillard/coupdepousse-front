@@ -44,7 +44,6 @@ const Signup = () => {
         <h1 className="title title_white">Inscription</h1>
         <form onSubmit={handleFormSubmit}>
           <div className="input">
-
           <div className='input_first_raw'>
             <input
               type="text"
@@ -107,7 +106,9 @@ const Signup = () => {
           </div>
           </div>
           <div className="bnt_round">
-            <input type="submit" value="Créer un compte" />
+            <a href="">
+              <input type="submit" value="Créer un compte" />
+            </a>
           </div>
         </form>
 

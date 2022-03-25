@@ -10,8 +10,8 @@ const OldMenu = (props: any) => {
 			<Header color="Black"/>
 			<div className='ButtonsContainer'>
 				<div>
-				<MenuButton buttonColor="greenButton" buttontext="Inscription"/>
-				<MenuButton buttonColor="greenButton" buttontext="Connexion"/>
+					<MenuButton buttonColor="greenButton" buttontext="Inscription" hrefUrl="/signup" />
+					<MenuButton buttonColor="greenButton" buttontext="Connexion" hrefUrl="/login"/>
 				</div>
 				<span className="OldMenuChoice">OU</span>
 				<a className="ConnectByNum">Envoyez CDP au 3070</a>

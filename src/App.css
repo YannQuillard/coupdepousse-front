@@ -1,129 +1,130 @@
 @font-face {
-  font-family: "Montserrat";
-  src: url("assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf") format("ttf");
-  font-weight: 600;
-  font-style: normal;
+	font-family: "Montserrat";
+	src: url("assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf") format("ttf");
+	font-weight: 600;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: "Breve-News-Book";
-  src: url("assets/fonts/breve-new-book/Breve-News-Book.ttf") format("ttf");
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Breve-News-Book";
+	src: url("assets/fonts/breve-new-book/Breve-News-Book.ttf") format("ttf");
+	font-weight: 400;
+	font-style: normal;
 }
 
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
 }
 
 a,
 a:hover,
 a:visited {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 li,
 ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 button,
 input {
-  outline: none;
+	outline: none;
 }
 
 
 :root {
-  --color-primary-1: #3D5C54;
-  --color-primary-2: #EFBE96;
-  --color-primary-3: #FAF6F2;
+	--color-primary-1: #3D5C54;
+	--color-primary-2: #EFBE96;
+	--color-primary-3: #FAF6F2;
 
-  --color-secondary-1:#BDBDBD;
-  --color-secondary-2:#F8EEE4;
-  --color-secondary-3:#848484;
+	--color-secondary-1:#BDBDBD;
+	--color-secondary-2:#F8EEE4;
+	--color-secondary-3:#848484;
 
-  --color-black:#111111;
+	--color-black:#111111;
 
-  --font-primary-1: Montserrat, sans-serif;
-  --font-primary-2: Breve-News-Book;
+	--font-primary-1: Montserrat, sans-serif;
+	--font-primary-2: Breve-News-Book;
 }
 
 /*------Button*/
 
 .bnt_round {
-  display: flex;
-  place-content: space-around;
-  place-items: center;
-  height: 38px;
-  padding: 0 12px;
-  border-radius: 50px;
-  font-family: var(--font-primary-1);
-  font-weight: 600;
-  color: var(--color-primary-1);
-  background-color: var(--color-primary-2);
-  cursor: pointer;
+	display: flex;
+	place-content: space-around;
+	place-items: center;
+	height: 38px;
+	padding: 0 12px;
+	border-radius: 50px;
+	font-family: var(--font-primary-1);
+	font-weight: 600;
+	color: var(--color-primary-1);
+	background-color: var(--color-primary-2);
+	cursor: pointer;
 }
 
 .bnt_round_reverse {
-  color: var(--color-primary-2);
-  background-color: var(--color-primary-1);
+	color: var(--color-primary-2);
+	background-color: var(--color-primary-1);
 }
 
 /*------Title*/
 
 .title{
-  font-family: var(--font-primary-1);
-  font-size: 48px;
-  
+	font-family: var(--font-primary-1);
+	font-size: 48px;
+	
 }
 
 .title_white{
-  color: var(--color-primary-3);
+	color: var(--color-primary-3);
 }
 
 .title_green{ 
-  font-family: var(--font-primary-1);
-  font-size: 36px;
-  color: var(--color-primary-1);
+	font-family: var(--font-primary-1);
+	font-size: 3vh;
+	/* font-size: 36px; */
+	color: var(--color-primary-1);
 }
 
 
 /*------Input*/
 
 .input{
-  display: flex;
+	display: flex;
 }
 
 .input_content{
-  display: flex;
-  place-items: center;
-  height: 38px;
-  padding: 0 19px;
-  border-radius: 50px;
-  font-family: var(--font-primary-2);
-  font-size:18px;
-  font-weight: 400;
+	display: flex;
+	place-items: center;
+	height: 38px;
+	padding: 0 19px;
+	border-radius: 50px;
+	font-family: var(--font-primary-2);
+	font-size:18px;
+	font-weight: 400;
 
 }
 
 ::placeholder{
-  color: var(--color-secondary-1);
+	color: var(--color-secondary-1);
 }
 
 .container{
-  width:100vw;
-  height: 100vh;
-  padding: 0 78px;
+	width:100vw;
+	height: 100vh;
+	padding: 0 78px;
 }
 
 /*------Small Text*/
 
 .small_Text p, a{
-  font-family: var(--font-primary-2);
-  font-size: 18px;
+	font-family: var(--font-primary-2);
+	font-size: 18px;
 }

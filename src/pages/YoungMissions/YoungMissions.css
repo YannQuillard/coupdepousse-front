@@ -2,6 +2,13 @@
 	margin: 0 5vw ;
 }
 
+.PageContainer{
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 .MissionsPart{
 	margin: 4vh 0;
 }
@@ -25,4 +32,25 @@ h3:hover{
 
 .MissionsList>div{
 	margin: 2vh 1vw;
+}
+
+.MissionsRight{
+	width: 30vw;
+	height: 85vh;
+	border-radius: 50px 0 0 0;
+	border-top: 2px solid var(--color-primary-1);
+	border-left: 2px solid var(--color-primary-1);
+	position: relative;
+}
+
+h4{
+	color: var(--color-primary-1);
+	font-size: 3vh;
+	font-family: var(--font-primary-1);
+	margin: 5vh 2vw;
+}
+
+.MissionsMessages{
+	display: flex;
+	flex-direction: column;
 }

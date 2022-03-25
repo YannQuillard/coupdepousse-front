@@ -1,19 +1,19 @@
 .mission_card{
     display: flex;
     padding-left: 26px;
-    width:420px;
-    height: 210px;
+    width: 35vw;
+    height: 32vh;
     background-color: var(--color-secondary-2);
     border-radius: 35px;
 }
 
 .mission_first_raw{
     display: flex;
-    margin: 22px 0 16px 0;
+    margin: 0.5vh 0 ;
 }
 
 .mission_first_raw h4{
-    margin-left: 12px;
+    margin-left: 1vw;
 }
 
 .mission_second_raw{
